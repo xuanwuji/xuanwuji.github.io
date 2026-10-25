@@ -1,33 +1,32 @@
-# EZRA — personal website
+# Xuan Yao — Academic Profile
 
 Website: https://xuanwuji.github.io/
 
-A lightweight, bilingual personal homepage. Plain HTML, CSS, and JavaScript; no build tools or third-party runtime dependencies. Includes mobile layouts, keyboard focus styles, reduced-motion support, a custom 404 page, and basic search metadata.
+A restrained, bilingual academic homepage built with plain HTML, CSS, and JavaScript. The design emphasizes system typography, clear hierarchy, comfortable spacing, and accessible navigation.
 
-## Editing
+## Update content
 
-- `index.html`: Chinese content, public project links, metadata.
-- `script.js`: English translations. The language preference is stored locally in the visitor's browser.
-- `styles.css`: layout and colors.
-- `water-study.svg`: original abstract cover illustration (not scientific data).
-- `favicon.svg`: site icon.
+- `index.html`: Chinese biography, research interests, bibliography, education, and contact text.
+- `script.js`: English translations and language preference.
+- `styles.css`: responsive layout and visual styling.
+- `portrait.jpg`: original portrait extracted from the author-provided CV.
 
-## Preview locally
+Keep contact details as plain, obfuscated text. Do not add a telephone number, a raw email address, a mail link, or an unredacted CV file. Do not reconstruct email addresses in scripts or metadata. This text formatting reduces simple address harvesting but does not prevent all automated scraping.
 
-Run `python3 -m http.server 4173` in this folder, then visit http://localhost:4173.
+## Content and publication status
 
-## GitHub Pages
+Profile and education follow the author-provided CV. Project descriptions are deliberately brief; training scales, performance figures, experimental details, and internal workflows are omitted.
 
-Repository: `xuanwuji/xuanwuji.github.io`.
-In Settings → Pages select **Deploy from a branch**, **main**, and **/(root)**. Save. `.nojekyll` serves the static files directly. Future commits to `main` automatically update the site.
+The bibliography distinguishes published papers, an accepted paper, and a manuscript under review. Acceptance and manuscript status follow the CV; an acceptance claim is not inferred from a preprint. Published entries link to their DOI. Author spelling on published entries follows public bibliographic records, where the name appears as Yao Xuan. The profile uses the author's preferred name, Xuan Yao.
 
-## Content sources
+Public references checked on 2026-10-25:
 
-Initial content was checked against public sources on 2026-10-25:
+- https://doi.org/10.1016/j.bbrc.2026.153729
+- https://doi.org/10.1093/bib/bbaf327
+- https://arxiv.org/abs/2508.11190
 
-- https://github.com/xuanwuji — display name, affiliation field, country, and “Be water” bio.
-- https://github.com/xuanwuji/SpatialCL — spatial transcriptomics and contrastive learning description.
-- https://github.com/xuanwuji/pHLAformer — prediction targets and model description.
-- https://github.com/xuanwuji/pdb2voronoi — structure visualization description.
+## Preview and deployment
 
-The site summarizes repository descriptions and does not claim independent validation of their scientific results. No private repositories, unpublished materials, personal email, publication record, or inferred job title are included.
+Run `python3 -m http.server 4173` in this directory, then open http://localhost:4173.
+
+GitHub Pages serves the root of the `main` branch in `xuanwuji/xuanwuji.github.io`. The `.nojekyll` file enables direct static publishing. No external fonts, analytics, or runtime dependencies are required.
