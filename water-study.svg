@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="560" viewBox="0 0 520 560" fill="none" role="img" aria-labelledby="water-title water-description">
+  <title id="water-title">Be water</title>
+  <desc id="water-description">An abstract water form drawn with pale flowing contours on a forest green background, with a single orange point.</desc>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#C5D9C9" stroke-opacity=".085" stroke-width=".6"/>
+    </pattern>
+    <radialGradient id="light" cx="0" cy="0" r="1" gradientTransform="translate(273 259) rotate(90) scale(267 226)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6C9B82" stop-opacity=".13"/>
+      <stop offset="1" stop-color="#193F38" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="contour" x1="127" y1="146" x2="393" y2="402" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EDEEE0" stop-opacity=".93"/>
+      <stop offset=".52" stop-color="#BDD7C8" stop-opacity=".62"/>
+      <stop offset="1" stop-color="#A5CCB9" stop-opacity=".26"/>
+    </linearGradient>
+    <path id="water" d="M268 99C306 78 354 96 370 132C389 174 367 202 374 238C381 276 414 293 409 336C404 379 366 415 324 437C278 462 216 452 173 425C125 395 98 345 103 296C108 243 146 211 177 175C210 137 228 121 268 99Z"/>
+    <clipPath id="frame"><path d="M0 0H520V560H0Z"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <path fill="#193F38" d="M0 0H520V560H0Z"/>
+    <path fill="url(#grid)" d="M0 0H520V560H0Z"/>
+    <path fill="url(#light)" d="M0 0H520V560H0Z"/>
+
+    <g stroke="#C5D9C9" stroke-width=".75" stroke-opacity=".24">
+      <path d="M30 40H50M40 30V50M470 40H490M480 30V50M30 520H50M40 510V530M470 520H490M480 510V530"/>
+      <path d="M40 280H49M471 280H480M260 40V49M260 511V520"/>
+    </g>
+
+    <g stroke="url(#contour)" stroke-width="1.1">
+      <use href="#water" transform="translate(-24.96 -26.88) scale(1.096)" opacity=".19"/>
+      <use href="#water" transform="translate(-12.48 -13.44) scale(1.048)" opacity=".31"/>
+      <use href="#water" opacity=".47"/>
+      <use href="#water" transform="translate(12.48 13.44) scale(.952)" opacity=".61"/>
+      <use href="#water" transform="translate(24.96 26.88) scale(.904)" opacity=".74"/>
+      <use href="#water" transform="translate(37.44 40.32) scale(.856)" opacity=".85"/>
+      <use href="#water" transform="translate(49.92 53.76) scale(.808)" opacity=".95"/>
+      <use href="#water" transform="translate(62.4 67.2) scale(.76)"/>
+      <use href="#water" transform="translate(74.88 80.64) scale(.712)"/>
+      <use href="#water" transform="translate(87.36 94.08) scale(.664)"/>
+      <use href="#water" transform="translate(99.84 107.52) scale(.616)"/>
+      <use href="#water" transform="translate(112.32 120.96) scale(.568)"/>
+      <use href="#water" transform="translate(124.8 134.4) scale(.52)"/>
+      <use href="#water" transform="translate(137.28 147.84) scale(.472)"/>
+      <use href="#water" transform="translate(149.76 161.28) scale(.424)" opacity=".91"/>
+      <use href="#water" transform="translate(162.24 174.72) scale(.376)" opacity=".81"/>
+      <use href="#water" transform="translate(174.72 188.16) scale(.328)" opacity=".68"/>
+      <use href="#water" transform="translate(187.2 201.6) scale(.28)" opacity=".53"/>
+      <use href="#water" transform="translate(199.68 215.04) scale(.232)" opacity=".39"/>
+      <use href="#water" transform="translate(212.16 228.48) scale(.184)" opacity=".26"/>
+      <use href="#water" transform="translate(224.64 241.92) scale(.136)" opacity=".16"/>
+    </g>
+
+    <path d="M-39 433C63 470 119 469 190 449C268 427 311 378 331 319C356 245 402 197 556 177" stroke="#C8DDD0" stroke-opacity=".25" stroke-width=".8"/>
+    <path d="M-42 448C60 485 125 482 196 461C276 437 320 385 341 323C367 246 409 211 557 194" stroke="#C8DDD0" stroke-opacity=".13" stroke-width=".8"/>
+    <circle cx="397" cy="199" r="7" fill="#E9A26F"/>
+    <circle cx="397" cy="199" r="13" stroke="#E9A26F" stroke-opacity=".25" stroke-width=".75"/>
+    <path d="M72 480H105" stroke="#D9E5D9" stroke-opacity=".55" stroke-width="1"/>
+    <path d="M415 80H448" stroke="#D9E5D9" stroke-opacity=".55" stroke-width="1"/>
+  </g>
+</svg>

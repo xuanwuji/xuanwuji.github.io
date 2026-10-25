@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://xuanwuji.github.io/sitemap.xml
