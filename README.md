@@ -4,10 +4,12 @@ Website: https://xuanwuji.github.io/
 
 A restrained, bilingual academic homepage built with plain HTML, CSS, and JavaScript. The design emphasizes system typography, clear hierarchy, comfortable spacing, and accessible navigation.
 
+English is the default for first-time visitors, including when JavaScript is unavailable. The language switcher preserves an explicit Chinese or English choice across visits.
+
 ## Update content
 
-- `index.html`: Chinese biography, research interests, bibliography, education, and contact text.
-- `script.js`: English translations and language preference.
+- `index.html`: English biography, research interests, bibliography, education, and contact text.
+- `script.js`: Chinese and English translations, language switching, and saved preference.
 - `styles.css`: responsive layout and visual styling.
 - `portrait.jpg`: original portrait extracted from the author-provided CV.
 
